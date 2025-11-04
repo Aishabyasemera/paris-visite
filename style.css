@@ -1,1 +1,26 @@
-::cue-region
+h3 {
+text-align: center;
+
+}
+
+p {
+color: rgb(0, 0, 0);
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    color: black;
+    background-color: rgb(112, 112, 112);
+    border-radius: 20px;
+}
+
+h3 {
+    color: black;
+}
+
+body {
+    background-color: rgb(215, 214, 214);
+}
