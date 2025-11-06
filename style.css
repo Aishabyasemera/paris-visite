@@ -1,134 +1,29 @@
+main{ text-align: center;
+  background-color: rgb(243, 239, 239) ; 
+  color: black; 
+  
+h2{background-color: yellow;
 
-body {
-    font-family: 'Roboto', sans-serif; 
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f9; 
-    color: #333; 
-       line-height: 1.6;
 }
+h3{background-color: blue; 
 
-
-.main {
-    background-color: #ffffff;
-    max-width: 1000px; 
-    margin: 20px auto;
-    padding: 20px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
-    border-radius: 8px; 
 }
+h4{
+  background-color: blanchedalmond;
 
-
-.main img {
-    max-width: 100%; 
-    height: auto; 
-    display: block; 
-    margin: 20px auto; 
-    border-radius: 10px;
-    object-fit: cover; 
 }
-
-
-.image-principale {
-    border: 4px solid #d4af37; 
-    max-height: 400px; 
-    width: 100%;
+@media (max-width: 768px){
+  body{
+    font-size: 16px;
+    background-color: lightgray;
+  
+  }
 }
-
-.image-secondaire {
-    border: 2px solid #ccc;
-    max-width: 90%;
+  
 }
-
-
-h1, h2, h3 {
-    font-family: 'Playfair Display', serif;
-    text-align: center;
-    margin-top: 1.5em;
-    color: #1a1a1a;
-}
-
-h1 {
-    font-size: 2.5em;
-    font-weight: 700;
-    text-transform: uppercase;
-    border-bottom: 2px solid #d4af37; 
-    padding-bottom: 5px;
-    margin-bottom: 10px;
-}
-
-h2 {
-    font-size: 1.5em;
-    font-style: italic;
-    color: #6a6a6a;
-    font-weight: 400;
-}
-
-h3 {
-    font-size: 1.3em;
-    color: #375d81;
-    margin-top: 2em;
-    text-align: left; 
-    padding: 0 10px;
-}
-
-p {
-    text-align: justify;
-    margin-bottom: 1em;
-    padding: 0 10px;
-}
-
-
-.auteur {
-    display: block;
-    text-align: right;
-    margin-top: 30px;
-    font-weight: bold;
-    color: #375d81;
-    text-decoration: none;
-    padding: 0 10px;
-    transition: color 0.3s;
-}
-
-.auteur:hover {
-    color: #1a1a1a;
-}
-
-
-footer {
-    text-align: center;
-    padding: 15px 0;
-    background-color: #375d81;
-    color: white;
-    margin-top: 20px;
-    font-size: 0.9em;
-}
-
-
-
-@media (min-width: 600px) {
-    p {
-        padding: 0 20px;
-    }
-    h3 {
-        padding: 0 20px;
-    }
-}
-
-
-@media (max-width: 500px) {
-    .main {
-        margin: 0; 
-        padding: 10px;
-        border-radius: 0;
-        box-shadow: none;
-    }
-    
-    h1 {
-        font-size: 1.8em;
-    }
-    
-    .image-principale {
-        max-height: 250px;
-    }
+@media(max-width:480px){
+  body{
+    font-size: 14px;
+    background-color: lightblue;
+  }
 }
